@@ -6,7 +6,7 @@ var cartOne = {           // Object: Salmon cookie cart
   avSale: 5.2,            // Av # of cookies per sale
   cPh:  0,                // Cookies per hour
   sales: [],              // Array for cart sales
-  operation: ["10 am: ", "11am: ", "12pm: ", "1pm: ", "2pm: ", "3pm: ", "4pm: ", "5pm: "],
+  operation: ["10am: ", "11am: ", "12pm: ", "1pm: ", "2pm: ", "3pm: ", "4pm: ", "5pm: "],
   cusGen: function() {    // Random # of customers based on cart max/min
     return Math.random() * (this.maxCus - this.minCus) + this.minCus;
   }
@@ -19,7 +19,7 @@ var cartTwo = {            // Object: Salmon cookie cart
   maxCus: 24,              // Max # of customers per hour
   avSale: 1.2,             // Av # of cookies per sale
   sales: [],               // Array for cart sales
-  operation: ["10 am: ", "11am: ", "12pm: ", "1pm: ", "2pm: ", "3pm: ", "4pm: ", "5pm: "],
+  operation: ["10am: ", "11am: ", "12pm: ", "1pm: ", "2pm: ", "3pm: ", "4pm: ", "5pm: "],
   cusGen: function() {     // Random # of customers based on cart max/min
     return Math.random() * (this.maxCus - this.minCus) + this.minCus;
   }
@@ -32,7 +32,7 @@ var cartThree = {            // Object: Salmon cookie cart
   maxCus: 38,               // Max # of customers per hour
   avSale: 1.9,              // Av # of cookies per sale
   sales: [],                // Array for cart sales
-  operation: ["10 am: ", "11am: ", "12pm: ", "1pm: ", "2pm: ", "3pm: ", "4pm: ", "5pm: "],
+  operation: ["10am: ", "11am: ", "12pm: ", "1pm: ", "2pm: ", "3pm: ", "4pm: ", "5pm: "],
   cusGen: function() {      // Random # of customers based on cart max/min
     return Math.random() * (this.maxCus - this.minCus) + this.minCus;
   }
@@ -45,7 +45,7 @@ var cartFour = {           // Object: Salmon cookie cart
   maxCus: 48,             // Max # of customers per hour
   avSale: 3.3,            // Av # of cookies per sale
   sales: [],              // Array for cart sales
-  operation: ["10 am: ", "11am: ", "12pm: ", "1pm: ", "2pm: ", "3pm: ", "4pm: ", "5pm: "],
+  operation: ["10am: ", "11am: ", "12pm: ", "1pm: ", "2pm: ", "3pm: ", "4pm: ", "5pm: "],
   cusGen: function() {    // Random # of customers based on cart max/min
     return Math.random() * (this.maxCus - this.minCus) + this.minCus;
   }
@@ -58,7 +58,7 @@ var cartFive = {           // Object: Salmon cookie cart
   maxCus: 24,              // Max # of customers per hour
   avSale: 2.6,             // Av # of cookies per sale
   sales: [],               // Array for cart sales
-  operation: ["10 am: ", "11am: ", "12pm: ", "1pm: ", "2pm: ", "3pm: ", "4pm: ", "5pm: "],
+  operation: ["10am: ", "11am: ", "12pm: ", "1pm: ", "2pm: ", "3pm: ", "4pm: ", "5pm: "],
   cusGen: function() {     // Random # of customers based on cart max/min
     return Math.random() * (this.maxCus - this.minCus) + this.minCus;
   }
