@@ -84,3 +84,53 @@ div.about {
   padding-left: 20px;
   padding-right: 400px;
 }
+#style1 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 64px;
+  color: black;
+  text-align: center;
+}
+#style2 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 64px;
+  color: black;
+  text-align: center;
+}
+#style3 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 64px;
+  color: black;
+  text-align: center;
+}
+#color1 {
+  font-family: 'Droid Sans', sans-serif;
+  color: black;
+  text-align: center;
+}
+#color2 {
+  font-family: 'Droid Sans', sans-serif;
+  color: #9fbfcc;
+  text-align: center;
+}
+#color3 {
+  font-family: 'Droid Sans', sans-serif;
+  color: #63777f;
+  text-align: center;
+}
+#color4 {
+  font-family: 'Droid Sans', sans-serif;
+  color: #2b2733;
+  text-align: center;
+}
+#color5 {
+  font-family: 'Droid Sans', sans-serif;
+  color: #27332b;
+  text-align: center;
+}
+.style {
+  text-align: center;
+}
+.link {
+text-align: center;
+font-size: 24pt; 
+}
