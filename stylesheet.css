@@ -80,9 +80,9 @@ div.title {
 }
 div.about {
   display: block;
-  padding-top: 300px;
+  padding-top: 30px;
   padding-left: 20px;
-  padding-right: 400px;
+  padding-right: 40px;
 }
 #style1 {
   font-family: 'Droid Sans', sans-serif;
@@ -132,5 +132,5 @@ div.about {
 }
 .link {
 text-align: center;
-font-size: 24pt; 
+font-size: 24pt;
 }
