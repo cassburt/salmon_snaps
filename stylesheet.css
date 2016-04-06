@@ -8,7 +8,7 @@ p { font-family: 'Droid Sans', sans-serif; font-size: 16px; color: #27332b;}
 table { }
 th { font-family: 'Lobster'; font-size: 24px; padding: 10px; background-color: #FFA07B;}
 td { font-family: 'Droid Sans', sans-serif; font-size: 24px; border: 1px solid #FFA07B; padding: 10px; background-color: #bbbbbb;}
-form {margin-left: 20px;}
+form {font-family: 'Droid Sans', sans-serif; font-size: 24px; width: 33%; margin:0 auto;}
 
 
 /* header */
@@ -30,7 +30,7 @@ div.titleBig { margin-top: -80px; margin-bottom: 0px;}
 div.family { height: 320px; background-color: #bbbbbb; margin-left: 5%; margin-right: 5%; margin-top: -40px; margin-bottom: -30px; vertical-align: middle;}
 img.family { width: 568px; float: left;}
 table.familyTextBox {height: 320px; border-left: 3px solid #FFA07B;}
-#h3Family {font-size: 32px; text-align: center; vertical}
+#h3Family {font-size: 32px; text-align: center;}
 #famCell {border: 0;}
 
 /* Chart */
@@ -39,11 +39,14 @@ div.breakColor {margin: -8px; height: 24px; background-color: #FFA07B;}
 div.chart { height: 960px; margin: -8px; background-color: #ffd7c7; vertical-align: middle; border-top: 1px solid #ffd7c7 }
 #cartChart{ border: 3px solid #FFA07B; font-family: 'Droid Sans', sans-serif; font-size: 24px; color: #27332b; margin: 0 auto;}
 
+/* Form */
+div.cookieForm {height: auto; margin:0 auto;}
+#cookieSubmit {background-color: #bbbbbb; border: 3px solid #FFA07B; text-align: center;}
 
 
 
 
-div.promo {
+/*div.promo {
   display: block;
   float:left;
   width: 45%;
@@ -135,4 +138,4 @@ div.about {
 .link {
 text-align: center;
 font-size: 24pt;
-}
+}*/
