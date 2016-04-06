@@ -1,46 +1,47 @@
-body {
-  background-color: #FFD7C7;
-}
-h1 {
-  font-family: 'Cherry Cream Soda', cursive;
-  font-size: 96px;
-  color: #2b2733;
-  }
-h2 {
-    font-family: 'Rock Salt';
-    font-size: 64px;
-    color: #27332b;
-  }
-h3 {
-    font-family: 'Cherry Cream Soda';
-    font-size: 48px;
-    color: #2b2733;
-  }
-h4 {
-    font-family: 'Rock Salt';
-    font-size: 24px;
-    color: #27332b;
-  }
-p {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 16px;
-  color: #27332b;
-}
-ul {
-    font-family: 'Droid Sans', sans-serif;
-    list-style-type: circle;
-    color: #27332b;
-}
-img.logo {
-  display: block;
-  margin: 0 auto;
-  width: 200px;
-}
-img.promotion {
-  display: block;
-  margin: 0 auto;
-  width: 600px;
-}
+/*General Element Settings */
+body { background-color: #e1e1e1;}
+h1 { font-family: 'Cherry Cream Soda'; font-size: 96px; color: #27332b; #font-family: 'Droid Sans', sans-serif; font-size: 24px; ;}
+h2 { font-family: 'Lobster'; font-size: 64px; color: #27332b;}
+h3 { font-family: 'Calligraffitti'; font-size: 48px; color: #2b2733;}
+h4 { font-family: 'Rock Salt'; font-size: 24px; color: #27332b;}
+p { font-family: 'Droid Sans', sans-serif; font-size: 16px; color: #27332b;}
+table { }
+th { font-family: 'Lobster'; font-size: 24px; padding: 10px; background-color: #FFA07B;}
+td { font-family: 'Droid Sans', sans-serif; font-size: 24px; border: 1px solid #FFA07B; padding: 10px; background-color: #bbbbbb;}
+
+
+/* header */
+div.header { margin: -8px; background-color: #bbbbbb;}
+img.header { width: 100px; padding-left: 20px; padding-top: 4px; padding-bottom: 4px;}
+nav.header { display: inline-block; vertical-align: top;}
+ul.header { font-family: 'Droid Sans', sans-serif; list-style-type: none; color: #27332b;}
+ul.header li {float: left; padding-left: 24px; padding-right: 24px;}
+ul.header li a { color: #000000; text-decoration: none;}
+ul.header li a:hover { color: #FFA07B; text-decoration: none;}
+
+/* Titles */
+div.titleSmall { margin-top: 0px; margin-bottom: -30px;}
+#h2Small {font-size: 32px; text-align: center;}
+div.titleBig { margin-top: -80px; margin-bottom: 0px;}
+#h1Big {font-size: 96px; text-align: center;}
+
+/* Promotion */
+div.family { height: 320px; background-color: #bbbbbb; margin-left: 5%; margin-right: 5%; margin-top: -40px; margin-bottom: -30px; vertical-align: middle;}
+img.family { width: 568px; float: left;}
+table.familyTextBox {height: 320px; border-left: 3px solid #FFA07B;}
+#h3Family {font-size: 32px; text-align: center; vertical}
+#famCell {border: 0;}
+
+/* Chart */
+div.break {margin: -8px; height: 80px;}
+div.breakColor {margin: -8px; height: 24px; background-color: #FFA07B;}
+div.chart { height: 640px; margin: -8px; background-color: #ffd7c7; vertical-align: middle; border-top: 1px solid #ffd7c7 }
+#cartChart{ border: 3px solid #FFA07B; font-family: 'Droid Sans', sans-serif; font-size: 24px; color: #27332b; margin: 0 auto;}
+
+
+
+
+
 div.promo {
   display: block;
   float:left;
