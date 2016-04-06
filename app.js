@@ -1,7 +1,7 @@
 
 // Cart object constructor
-var Cart = function(location, minCustomer, maxCustomer, avSale, sales_per_hour, total_sales) {
-  this.loc = location;
+var Cart = function(cartLocation, minCustomer, maxCustomer, avSale, sales_per_hour, total_sales) {
+  this.loc = cartLocation;
   this.minCus = minCustomer;
   this.maxCus = maxCustomer;
   this.avSale = avSale;
@@ -26,18 +26,17 @@ Carts.push(selWoo);
 var peaDis = new Cart("Pearl District", 3, 24, 2.6, [], []);
 Carts.push(peaDis);
 
-
 // Calculate an array of cookies per hour and total sales
-function cookieCounter(cart) {
-  for (var i = 0; i < cart.hours.length; i++) {
-    var cookiesPerHour = Math.round(cart.cusGen() * cart.avSale);
-    cart.sales.push (cookiesPerHour);
+function cookieCounter(Cart) {
+  for (var i = 0; i < Cart.hours.length; i++) {
+    var cookiesPerHour = Math.round(Cart.cusGen() * Cart.avSale);
+    Cart.sales.push (cookiesPerHour);
   }
   var saleSum = 0;
-  for (var i = 0; i < cart.sales.length; i++) {
-      saleSum +=cart.sales[i];
+  for (var i = 0; i < Cart.sales.length; i++) {
+      saleSum +=Cart.sales[i];
   }
-  cart.cooSum.push (saleSum);
+  Cart.cooSum.push (saleSum);
 };
 
 // Run the cookie counter for all objects in carts array
@@ -69,6 +68,37 @@ function addRow(cart) {
 function runChart() {
   for (var i = 0; i < Carts.length; i++) {
     addRow(Carts[i]);
+  }
+}
+
+//Form Submission
+function evaluateForm(submittedForm) {
+  var formIsValid = true;
+  if (submittedForm.cartLocation.value == "") {
+    submittedForm.cartLocation.setAttribute("class", "required");
+    formIsValid = false;
+  }
+  if (submittedForm.minCustomer.value == "") {
+    submittedForm.minCustomer.setAttribute("class", "required");
+    formIsValid = false;
+  }
+  if (submittedForm.maxCustomer.value == "") {
+    submittedForm.maxCustomer.setAttribute("class", "required");
+    formIsValid = false;
+  }
+  if (submittedForm.avSale.value == "") {
+    submittedForm.avSale.setAttribute("class", "required");
+    formIsValid = false;
+  }
+  var loc = submittedForm.cartLocation.value;
+  var minCus = submittedForm.minCustomer.value;
+  var maxCus = submittedForm.maxCustomer.value;
+  var avSale = submittedForm.avSale.value;
+  var newCart = new Cart(loc, minCus, maxCus, avSale, [], []);
+  if (formIsValid) {
+    Carts.push(newCart);
+    cookieCounter(newCart);
+    addRow(newCart);
   }
 }
 

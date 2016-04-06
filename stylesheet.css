@@ -8,6 +8,7 @@ p { font-family: 'Droid Sans', sans-serif; font-size: 16px; color: #27332b;}
 table { }
 th { font-family: 'Lobster'; font-size: 24px; padding: 10px; background-color: #FFA07B;}
 td { font-family: 'Droid Sans', sans-serif; font-size: 24px; border: 1px solid #FFA07B; padding: 10px; background-color: #bbbbbb;}
+form {margin-left: 20px;}
 
 
 /* header */
@@ -35,7 +36,7 @@ table.familyTextBox {height: 320px; border-left: 3px solid #FFA07B;}
 /* Chart */
 div.break {margin: -8px; height: 80px;}
 div.breakColor {margin: -8px; height: 24px; background-color: #FFA07B;}
-div.chart { height: 640px; margin: -8px; background-color: #ffd7c7; vertical-align: middle; border-top: 1px solid #ffd7c7 }
+div.chart { height: 960px; margin: -8px; background-color: #ffd7c7; vertical-align: middle; border-top: 1px solid #ffd7c7 }
 #cartChart{ border: 3px solid #FFA07B; font-family: 'Droid Sans', sans-serif; font-size: 24px; color: #27332b; margin: 0 auto;}
 
 
