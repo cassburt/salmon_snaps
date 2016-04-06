@@ -65,15 +65,18 @@
     <div class="break"></div>
 
 <!--Chart: Cookie Form-->
+  <div class="titleSmall">
+    <h2 id="h2Small">Add A Store</h2>
+  </div>
   <div class="cookieForm">
     <form id="cookieSubmit">
         <label for="loc">Cart Location: *</label>
           <input type="text" id="loc" name="cartLocation"><br>
-        <label for="minCus">Minimum Customers *</label>
+        <label for="minCus">Minimum # of Customers *</label>
             <input type="number" id="minCus" name="minCustomer"><br>
-        <label for="maxCus">Maximum Customers *</label>
+        <label for="maxCus">Maximum # of Customers *</label>
             <input type="number" id="maxCus" name="maxCustomer"><br>
-        <label for="avSale">Average Sale *</label>
+        <label for="avSale">Average Sales *</label>
             <input type="number" id="avSale" name="avSale"><br>
         <span>* = Required</span><br>
             <input type="button" value="Add New Store" onclick="evaluateForm(this.form)">

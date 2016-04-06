@@ -89,7 +89,7 @@ function evaluateForm(submittedForm) {
   if (submittedForm.avSale.value == "") {
     submittedForm.avSale.setAttribute("class", "required");
     formIsValid = false;
-  }
+  } 
   var loc = submittedForm.cartLocation.value;
   var minCus = submittedForm.minCustomer.value;
   var maxCus = submittedForm.maxCustomer.value;

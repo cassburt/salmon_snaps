@@ -5,7 +5,6 @@ h2 { font-family: 'Lobster'; font-size: 64px; color: #27332b;}
 h3 { font-family: 'Calligraffitti'; font-size: 48px; color: #2b2733;}
 h4 { font-family: 'Rock Salt'; font-size: 24px; color: #27332b;}
 p { font-family: 'Droid Sans', sans-serif; font-size: 16px; color: #27332b;}
-table { }
 th { font-family: 'Lobster'; font-size: 24px; padding: 10px; background-color: #FFA07B;}
 td { font-family: 'Droid Sans', sans-serif; font-size: 24px; border: 1px solid #FFA07B; padding: 10px; background-color: #bbbbbb;}
 form {font-family: 'Droid Sans', sans-serif; font-size: 24px; width: 33%; margin:0 auto;}
@@ -40,102 +39,5 @@ div.chart { height: 960px; margin: -8px; background-color: #ffd7c7; vertical-ali
 #cartChart{ border: 3px solid #FFA07B; font-family: 'Droid Sans', sans-serif; font-size: 24px; color: #27332b; margin: 0 auto;}
 
 /* Form */
-div.cookieForm {height: auto; margin:0 auto;}
+div.cookieForm {height: auto; margin:0 auto; padding-top: 10px;}
 #cookieSubmit {background-color: #bbbbbb; border: 3px solid #FFA07B; text-align: center;}
-
-
-
-
-/*div.promo {
-  display: block;
-  float:left;
-  width: 45%;
-  padding-left: 60px;
-}
-div.quote {
-  display: block;
-  float: left;
-  width: 45%;
-  font-family: 'Rock Salt';
-  font-size: 24px;
-  color: #27332b;
-  text-align: center;
-  padding-bottom: 150px;
-  padding-right: 20px;
-}
-div.charts {
-  display: block;
-  padding-left: 20px;
-  padding-right: 40px;
-}
-div.cart1 {
-  background-color: #9fbfcc;
-  float: left;
-  width: 20%;
-  text-align: center;
-}
-div.cart2 {
-  background-color: #63777f;
-  float: left;
-  width: 20%;
-  text-align: center;
-}
-div.title {
-  text-align: center;
-}
-div.about {
-  display: block;
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 40px;
-}
-#style1 {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 64px;
-  color: black;
-  text-align: center;
-}
-#style2 {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 64px;
-  color: black;
-  text-align: center;
-}
-#style3 {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 64px;
-  color: black;
-  text-align: center;
-}
-#color1 {
-  font-family: 'Droid Sans', sans-serif;
-  color: black;
-  text-align: center;
-}
-#color2 {
-  font-family: 'Droid Sans', sans-serif;
-  color: #9fbfcc;
-  text-align: center;
-}
-#color3 {
-  font-family: 'Droid Sans', sans-serif;
-  color: #63777f;
-  text-align: center;
-}
-#color4 {
-  font-family: 'Droid Sans', sans-serif;
-  color: #2b2733;
-  text-align: center;
-}
-#color5 {
-  font-family: 'Droid Sans', sans-serif;
-  color: #27332b;
-  text-align: center;
-}
-.style {
-  text-align: center;
-}
-.link {
-text-align: center;
-font-size: 24pt;
-}*/
